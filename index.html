@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Splash Screen -->
+    <div id="splash-screen">
+        <img src="20210302_224959.jpg" alt="Developer Image" id="dev-image">
+        <h2>Developed by Yashwant Dhanik</h2>
+        <p>Email: yashdhanik457@gmail.com</p>
+    </div>
+
+    <!-- Name Entry Page -->
+    <div id="name-entry-page" style="display:none;">
+        <h1>Tic Tac Toe</h1>
+        <p>Please enter your names to start the game:</p>
+        <input type="text" id="player1" placeholder="Player 1 Name" />
+        <input type="text" id="player2" placeholder="Player 2 Name" />
+        <button id="startGame">Start Game</button>
+    </div>
+
+    <!-- Game Content -->
+    <div class="container" id="game-content" style="display:none;">
+        <h1>Tic Tac Toe Game</h1>
+        <div class="board">
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+        </div>
+        <p id="turn"></p>
+        <button id="restartButton">Restart Game</button>
+        <p id="message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
