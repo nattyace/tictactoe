@@ -1,7 +1,3 @@
-Here’s a sample README for your JavaScript project, which you can customize based on the features and details of your project:
-
----
-
 # Tic Tac Toe Game
 
 A modern and interactive Tic Tac Toe game built using HTML, CSS, and JavaScript.
